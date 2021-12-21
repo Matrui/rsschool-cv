@@ -1,5 +1,8 @@
 # Yan Matrunchyk
 Web Developer
+#### Contacts
+Email: yanmatr@gmail.com 
+Github: [Matrui](https://github.com/Matrui "Github")
 
 #### Skills
 1. Html
