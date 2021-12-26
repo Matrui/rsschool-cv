@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://matrui.github.io/rsschool-cv/cv
+https://matrui.github.io/rsschool-cv/
