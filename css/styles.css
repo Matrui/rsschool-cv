@@ -15,7 +15,7 @@
     padding: 0px;
     width: 100%;
     min-height: 150px;
-    background-color: rgba(51, 58, 68, 0.234);
+    background-color: rgba(51, 58, 68, 0.334);
 }
 .header div{
     margin-right: 3px;
@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(51, 58, 68, 0.234);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -127,6 +127,9 @@ h1{
 
 p {
     font-size: 120%;
+}
+b{
+    color: aqua;
 }
 h2{
     background-color: rgba(51, 58, 68, 0.134);;
