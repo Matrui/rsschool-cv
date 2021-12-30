@@ -17,8 +17,7 @@
     background-color: rgba(51, 58, 68, 0.234);
 }
 .header div{
-    height: 106px;
-    margin-right: 22px;
+    margin-right: 3px;
     margin-bottom: 22px;
     margin-top: 22px;
     margin-left: 3px;
@@ -26,21 +25,49 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+#headerText{
+    height: 108px;
+}
 .section{
     display: flex;
     flex-direction: row;
     justify-content: auto;
     align-items: stretch;
     flex-wrap: wrap;
-    min-width: 150px;
+    min-width: 100px;
     padding: 0px;
-    margin: 22px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 3px;
+    margin-right: 3px;
     min-height: 108px;
     background-color: rgba(0, 0, 0, 0);
 }
 .section div{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+.circleSmall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 43px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    margin-left: 41px;
+    border: 2px solid white;
+    
+    
+}
+.textInSection{
+    margin-left: 3px;
+    margin-right: 3px;
+    flex-basis: 700px;
+    background-color: rgba(51, 58, 68, 0.234);
 }
 
 /*
@@ -82,27 +109,6 @@ h1 {
     height: 100px;
     margin: 22px;
     border: 3px solid white;
-}
-.circleSmall {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    margin-right: 22px;
-    margin-bottom: 22px;
-    margin-top: 0px;
-    margin-left: 22px;
-    border: 2px solid white;
-    
-    
-}
-.textInSection{
-    margin-left: 25px;
-    width: 70%;
-    background-color: rgba(51, 58, 68, 0.234);
 }
 
 .emoji{
