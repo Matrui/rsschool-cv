@@ -1,8 +1,9 @@
 .wrapper { 
-    width: 80%; 
+    flex-basis: 1200px;
     min-width: 150px;
     height: 100%; 
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
     background-color: rgba(51, 58, 68, 0.334);
 }
 .header {
@@ -151,5 +152,9 @@ h2{
 
 body{
     animation: pulse 70s infinite linear;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
     
 }
