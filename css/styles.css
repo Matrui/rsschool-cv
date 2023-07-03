@@ -1,0 +1,255 @@
+body{
+    animation: pulse 70s infinite linear;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.wrapper { 
+    flex-basis: 1200px;
+    min-width: 150px;
+    height: 100%; 
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(51, 58, 68, 0.334);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+    min-height: 150px;
+    background-color: rgba(51, 58, 68, 0.334);
+}
+.header div{
+    margin-right: 3px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    margin-left: 3px;
+    background: rgba(0, 0, 0, 0);
+}
+#headerText{
+    height: 108px;
+}
+.middleArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: stretch;
+    flex-wrap: wrap;
+    min-width: 100px;
+    padding: 0px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 3px;
+    margin-right: 3px;
+    min-height: 108px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.circleSmall {
+    animation: borderCircle 70s infinite linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 58, 68, 0.234);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 43px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    margin-left: 41px;
+    border: 2px solid white;
+    
+    
+}
+
+.textInSection{
+    margin-left: 3px;
+    margin-right: 3px;
+    flex-basis: 740px;
+    background-color: rgba(51, 58, 68, 0.234);
+}
+
+/*
+.header:hover {
+    
+    width: 100%;
+    height: 200px;
+    background-color: rgba(51, 58, 68, 0.134);
+}
+*/
+.main {
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.aside{
+    max-width: 300px;
+    display: flex;
+    flex-grow: 1;
+}
+.miniApps{
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 22px;
+    margin-right: 22px;
+    min-height: 108px;
+    height: 200px;
+    background-color: rgba(51, 58, 68, 0.234);
+}
+.dicesGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150px;
+}
+#diceFirstPlayer{
+    animation: borderCircle 70s infinite linear;
+    border: 2px solid white;
+    background-color: rgba(51, 58, 68, 0.234);
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+#diceSecondPlayer{
+    animation: borderCircle 70s infinite linear;
+    border: 2px solid white;
+    background-color: rgba(51, 58, 68, 0.234);
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+#rollButton{
+    animation: borderCircle 70s infinite linear;
+    border: 2px solid white;
+    background-color: rgba(51, 58, 68, 0.234);
+    color: white;
+    flex-basis: 100%;
+    height: 40px;
+    margin: 5px;
+}
+#rollButton:hover{
+    background-color: rgba(51, 58, 68, 0.734);
+}
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(51, 58, 68, 0.134);
+}
+.centeredContener {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+#circle {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 22px;
+    border: 3px solid white;
+}
+
+.emoji{
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    font-size: 200%;
+}
+
+h2,
+p,
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+p {
+    font-size: 120%;
+}
+b{
+    color: aqua;
+}
+h2{
+    background-color: rgba(51, 58, 68, 0.134);
+    flex-basis: 100%;
+}
+@keyframes pulse {
+    0% {
+        background-color: #1f4037;
+    }
+    25% {
+        background-color: #DEB1F2;
+    }
+    50% {
+        background-color: #99F2C8;
+    }
+    75% {
+        background-color: #F2CD80;
+    }
+    100% {
+        background-color: #1f4037;
+    }
+  }
+  @keyframes borderCircle {
+    0% {
+        border-color: #ffffff;
+    }
+    25% {
+        border-color: #DEB1F2;
+    }
+    50% {
+        border-color: #99F2C8;
+    }
+    75% {
+        border-color: #F2CD80;
+    }
+    100% {
+        border-color: #ffffff;
+    }
+  }
+  .bounce {
+    animation: bounce 2s ease infinite;
+    font-weight: 200;
+    margin: auto;
+    margin-top: 30px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+  }
+  @keyframes bounce {
+      55% { transform:translateY(0%); }
+      65% { transform:translateY(-15%); }
+      75% { transform:translateY(0%); }
+      85% { transform:translateY(-11%); }
+      100% { transform:translateY(0); }
+  }
+
